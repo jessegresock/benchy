@@ -5,11 +5,6 @@ Benchy is a lightweight Python utility designed to help you measure the executio
 - **@timer Decorator:** A decorator that prints the execution time of any function it decorates.
 - **measure_time Function:** A helper function that executes any function and returns a tuple containing the function’s return value and the elapsed time in seconds.
 
-## File Structure
-benchy/ 
-    ├── decorators.py # Contains the @timer decorator. 
-    └── functions.py # Contains the measure_time function.
-
 ## Features
 
 - **@timer Decorator:**  
