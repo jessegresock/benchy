@@ -23,10 +23,14 @@ git clone https://github.com/jessegresock/benchy.git
 cd benchy
 ```
 ### Install the Module
-Install Benchy using the provided setup.py. For development, you can install it in editable mode:
-
+Install Benchy using the provided setup.py:
 ```bash
 pip install .
+```
+
+For development, you can install it in editable mode:
+```bash
+pip install -e .
 ```
 ## Usage
 ### Using the @timer Decorator
