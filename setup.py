@@ -3,7 +3,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="benchy",
-    version="1.0",
+    use_scm_version=True,
+    setup_requires=[
+        'setuptools_scm'
+    ],
     packages=find_packages(),
     author = "Gresock, Jesse",
     description="Simple benchmarking tool",
